@@ -2,7 +2,7 @@ import mysql.connector
 from flask import Flask , request
 import json
 
-conn_db = mysql.connector.connect(host="localhost", username="root", password="Nikhil9764", database="mydb")
+conn_db = mysql.connector.connect(host="localhost", username="root", password="", database="mydb")
 
 app = Flask(__name__)
 
